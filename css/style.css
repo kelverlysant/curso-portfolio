@@ -42,7 +42,7 @@ body{
     text-align: center;
 }
 .container-apresent .item h1{
-    color: #CC3F0C;
+    color: #A00020;
     font-family: fantasy;
     font-weight: 500;
     font-size: 1.5em;
@@ -71,7 +71,7 @@ body{
     width: 40%;
 }
 .skills h2{
-    color: #CC3F0C;
+    color: #A00020;
     text-align: center;
     font-family: fantasy;
     font-size: 1.5em;
@@ -106,7 +106,7 @@ body{
     padding: 5px;
     text-align: center;
     font-family: fantasy;
-    color: #CC3F0C;
+    color: #A00020;
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
