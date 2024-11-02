@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1a1919;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    background-image: url(../img/download.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-apresent{
+    display: flex;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #0000008e;
+ 
+}
+.container-apresent{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 50%;
+    text-align: center;
+}
+.container-apresent .item h1{
+    color: #CC3F0C;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+}
+.container-apresent .item h3{
+    color: #F0EFF4;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+}
+.container-apresent img{
+    margin-bottom: 5px;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container-apresent .skills{
+    flex: 1 2 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    padding-top: 15px;
+    width: 40%;
+}
+.skills h2{
+    color: #CC3F0C;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.9em;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+}
+.skills .tec  {
+    font-size: 2.1em;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .tec i:hover {
+    transform: scale(107%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.saibamais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+}
+.saibamais a{
+    text-decoration: none;
+    background-color: #F0EFF4;
+    width: 100%;
+    height: 15px;
+    padding: 5px;
+    text-align: center;
+    font-family: fantasy;
+    color: #CC3F0C;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+}
+.saibamais a:hover{
+    background-color: #f0eff47e;
+    transform: scale(105%);
+}
+.spotify{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000008e;
+    padding-top: 20px;
+}
+.spotify h2{
+    font-size: 1.8em;
+    font-family: fantasy;
+    color: #F0EFF4;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+.spotify iframe{
+    width: 95%;
+    height: 155px;
+}
