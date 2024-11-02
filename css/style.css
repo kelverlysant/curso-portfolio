@@ -3,11 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(../img/Hokusai\ Kaiju\ by\ mdk7.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F0EFF4;
     box-sizing: border-box;
     display: flex;
 }
@@ -21,7 +17,7 @@ body{
     background-image: url(../img/download.jpeg);
     background-position: center;
     background-size: cover;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     border-radius: 30px;
     position: absolute;
     top: 50%;
@@ -141,7 +137,7 @@ body{
     height: 155px;
 }
 .redes{
-    width: 98%;
+    width: 97%;
     height: 90%;
     background-color: #0000008e;
     font-size: 2.1em;
