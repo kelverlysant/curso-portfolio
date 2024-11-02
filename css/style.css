@@ -74,7 +74,7 @@ body{
     color: #CC3F0C;
     text-align: center;
     font-family: fantasy;
-    font-size: 1.9em;
+    font-size: 1.5em;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
 }
 .skills .tec  {
@@ -135,4 +135,24 @@ body{
 .spotify iframe{
     width: 95%;
     height: 155px;
+}
+.redes{
+    width: 98%;
+    height: 90%;
+    background-color: #0000008e;
+    font-size: 2.1em;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.redes i{
+    padding: 15px;
+}
+.redes i:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 0.5s;
 }
