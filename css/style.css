@@ -42,17 +42,17 @@ body{
     text-align: center;
 }
 .container-apresent .item h1{
+    margin-top: 15px;
     color: #A00020;
-    font-family: fantasy;
-    font-weight: 500;
-    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
 }
 .container-apresent .item h3{
+    margin-top: 8px;
     color: #F0EFF4;
-    font-family: fantasy;
-    font-weight: 500;
-    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
 }
 .container-apresent img{
@@ -73,8 +73,8 @@ body{
 .skills h2{
     color: #A00020;
     text-align: center;
-    font-family: fantasy;
-    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
 }
 .skills .tec  {
@@ -105,7 +105,8 @@ body{
     height: 15px;
     padding: 5px;
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     color: #A00020;
     border-radius: 10px;
     margin-top: 10px;
@@ -127,7 +128,8 @@ body{
 }
 .spotify h2{
     font-size: 1.8em;
-    font-family: fantasy;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     color: #F0EFF4;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
     margin-bottom: 10px;
