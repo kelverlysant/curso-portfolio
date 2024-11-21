@@ -1,21 +1,54 @@
 const quizQuestions = [
     {
-    question: "O que significa HTML?",
-    options: ["HyperText Markup Language", "Home Tool Markup Language", "HighText Machine Language"],
-    repost: "HyperText Markup Language"
-},
-
-{
-    question: "Qual destes é usado para estilizar páginas da web?",
-    options: ["Python", "HTML", "CSS", "SQL" ],
-    repost: "CSS"
-},
-
-{
-    question: "Qual destas opções declarar uma variável em JavaScript?",
-    options: ["Var", "Let", "Const", "Todas as anteriores"],
-    repost: "Todas as anteriores"
-}
+        question: "O que significa HTML?",
+        options: ["HyperText Markup Language", "Home Tool Markup Language", "HighText Machine Language"],
+        repost: "HyperText Markup Language"
+    },
+    {
+        question: "Qual destes é usado para estilizar páginas da web?",
+        options: ["Python", "HTML", "CSS", "SQL"],
+        repost: "CSS"
+    },
+    {
+        question: "Qual destas opções declara uma variável em JavaScript?",
+        options: ["Var", "Let", "Const", "Todas as anteriores"],
+        repost: "Todas as anteriores"
+    },
+    {
+        question: "O que significa CSS?",
+        options: ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System", "Cascading Simple Sheets"],
+        repost: "Cascading Style Sheets"
+    },
+    {
+        question: "Qual tag é usada para criar um link em HTML?",
+        options: ["<link>", "<a>", "<href>", "<url>"],
+        repost: "<a>"
+    },
+    {
+        question: "Qual das seguintes opções é usada para criar uma função em JavaScript?",
+        options: ["function myFunction()", "function = myFunction()", "def myFunction()", "create myFunction()"],
+        repost: "function myFunction()"
+    },
+    {
+        question: "O que significa a sigla SQL?",
+        options: ["Structured Query Language", "Structured Question Language", "Simple Query Language", "System Query Language"],
+        repost: "Structured Query Language"
+    },
+    {
+        question: "Qual propriedade do CSS é usada para alterar a cor do texto?",
+        options: ["text-color", "font-color", "color", "text-style"],
+        repost: "color"
+    },
+    {
+        question: "Qual comando do Git é usado para enviar alterações para um repositório remoto?",
+        options: ["git commit", "git push", "git pull", "git clone"],
+        repost: "git push"
+    },
+    {
+        question: "Qual é o método correto para adicionar um item ao final de uma array em JavaScript?",
+        options: ["add()", "append()", "push()", "insert()"],
+        repost: "push()"
+    }
 ];
 
 let currentQuestionIndex = 0;
